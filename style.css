@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Lobster&family=Poppins:ital,wght@1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Lobster&family=Poppins:ital,wght@1,200;1,300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Great+Vibes&family=Lobster&family=Poppins:ital,wght@1,200;1,300&family=Yeseva+One&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    background-color: pink;
+}
+
+#headings{
+    font-size: 6rem;
+    font-family: 'Dancing Script', cursive;
+    padding-top: 15%;
+    text-align: center;
+
+}
+.name{
+    font-family: 'Dancing Script', cursive;
+    font-size: 9rem;
+    text-align: center;
+
+}
+
+.quote{
+    font-family: 'Great Vibes', cursive;
+    font-size: larger;
+    text-align: center;
+}
+
+
+.myimage{
+    width: 45%;
+    height: 95%;
+    padding-top: 15%;
+    
+}
+
+#bio{
+    font-family: 'Yeseva One', cursive;
+    font-size: 2rem;
+    text-align: center;
+}
+
+.head{
+    color: #ff6464;
+    text-align: center;
+}
+
+.logos{
+    width: 15%;
+    height: 15%;
+    box-sizing: border-box;
+}
+
+.content{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
