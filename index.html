@@ -13,6 +13,8 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
     
     <!-- FONT AWESOME -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css">
+
 
     <title>Aneeta T Rose</title>
 </head>
@@ -22,7 +24,7 @@
         <div class="bg-dark p-4">
             <a href="#home">HOME</a>
             <a href="#menu">ABOUT ME</a>
-            <a href="#">SKILLS</a>
+            <a href="#skill">SKILLS</a>
             <a href="#footer">CONTACT</a>
           <span class="text-muted"></span>
         </div>
@@ -38,61 +40,122 @@
       <!-- HOME SKILLS ABOUT ME CONTACT -->
       <div class="row header-row" id="header">
         <div class="col-lg-6">
-            <h1 id="headings">Hi there</h1>
-            <h1 class="name">I'm Aneeta</h1>
+            <h1 id="headings">Hi there !</h1>
+            <h1 class="name">I'm <span style="color: #ff6464;">Aneeta</span></h1>
             <P class="quote">Why does the eye see a thing more clearly in dreams than the imagination when awake?</P>
             <p class="quote">-Leonardo da Vinci</p>
         </div>
             <div class="col-lg-6">
                 <img src="images/my photo.jpeg" alt="Aneeta" class="myimage">
+                <!-- <button type="button" id="menu" class="btn btn-dark">About Me</button> -->
 
             </div>
-
-      </div>
-      <div>
+        </div>
+      <div id="menu">
           <h1 class="head">ABOUT</h1>
-          <p id="bio">I'm Aneeta T Rose currently pursuing B.TECH Computer Science.I'm a person who is optimistic and enthusiastic who is interested in learning new things and loves to make others happy.Loves Space technology and dreams to become an ISRO Engineer.</p>
-
+          <p id="bio">I'm Aneeta T Rose currently pursuing B.TECH Computer Science. I'm a person who is optimistic and enthusiastic who is interested in learning new things and loves to make others happy. Loves Space technology and dreams to become an ISRO Engineer.</p>
+      </div>
+     <div id="skill">
+          <h1 class="head">SKILLS</h1>
+          <div class="Box row">
+           <div class="col text-center">
+            <div class="card" style="width: 15rem;height: fit-content;">
+              <img src="images/java.png" class="card-img-top" alt="java">
+              <div class="card-body">
+                <p class="content">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible.</p>
+              </div>
+            </div>
+            </div>
+            <div class="col text-center">
+              <div class="card" style="width: 15rem;height: fit-content;">
+                <img src="images/html.png" class="card-img-top" alt="html">
+                <div class="card-body">
+                <h5 class="Box-title">HTML</h5>
+                  <p class="content">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+                </div>
+              </div>
+            </div> 
+          <div class="col text-center">
+            <div class="card" style="width: 15rem;height: fit-content;">
+              <img src="images/css.png" class="card-img-top" alt="css">
+              <div class="card-body">
+                <h5 class="Box-title">CSS</h5>
+                <p class="content">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML.</p>
+              </div>
+            </div>
+            </div>
+          <div class="col text-center">
+            <div class="card" style="width: 15rem;height: fit-content;">
+              <img src="images/Bootstrap.png" class="card-img-top" alt="bootstrap">
+              <div class="card-body">
+                <h5 class="Box-title">BOOTSTRAP</h5>
+                <p class="content">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
+              </div>
+            </div>
+          </div>
+          </div>
+        </div>
       </div>
 
       <div>
-          <h1 class="head">SKILLS</h1>
-          <div class="Box">
-           <div class="col-lg-6">
-            <img src="images/java.png" alt="java" class="logos">
-            <div class="Box-body">
-                <h5 class="Box-title">Java</h5>
-                <p class="content">Java is a high-level, class-based, object-oriented programming language that is designed to have as few implementation dependencies as possible. It is a general-purpose programming language intended to let programmers write once, run anywhere (WORA),meaning that compiled Java code can run on all platforms that support Java without the need to recompile.</p>
-            </div>
-            </div>
-            <div class="col-lg-6">
-              <img src="images/html.png" alt="html" class="logos">
-              <div class="Box-body">
-                <h5 class="Box-title">HTML</h5>
-                <p class="content">The HyperText Markup Language, or HTML is the standard markup language for documents designed to be displayed in a web browser. It can be assisted by technologies such as Cascading Style Sheets (CSS) and scripting languages such as JavaScript.</p>
+        <h1 class="head"> My <span>Education</span></h1>
+        <div class="edu">
+          <i class="fas fa-graduation-cap" style="color: white;size: 4ch;"></i>
+          <span>2019-2023</span>
+          <h3>Bachelor of technology (Computer Science)</h3>
+          <p>LBS College of Engineering</p>
+        </div>
+        <div class="edu">
+          <i class="fas fa-graduation-cap" style="color: white;size: 4ch;"></i>
+          <span>2017-2019</span>
+          <h3>Higher Secondary Education(bio maths)</h3>
+          <p>Rajah's Higher Secondary School</p>
+        </div>
+        <div class="edu">
+          <i class="fas fa-graduation-cap" style="color: white;size: 4ch;"></i>
+          <span>2017</span>
+          <h3>High School</h3>
+          <p>ST.PETER'S ICSE School</p>
+        </div>
+      </div>
 
-            </div>
-           
-            </div>
-          <div class="col-lg-6">
+      <div id="footer">
 
-            <img src="images/css.png" alt="css" class="logos">
-            <div class="Box-body">
-              <h5 class="Box-title">CSS</h5>
-              <p class="content">Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML. CSS is a cornerstone technology of the World Wide Web, alongside HTML and JavaScript.
-                CSS is designed to enable the separation of presentation and content, including layout, colors, and fonts.</p>
-            </div>
-          </div>
+        <h1 class="head"> <span>Contact</span> me </h1>
+        
+        <div class="row">
+        
+            <div class="contents">
+        
+                <h3 class="title" style="color: white; text-align: center;">Contact info</h3>
+        
+                <div class="info">
+                    <h3><i class="fas fa-envelope"></i>aneetatrose01@gmail.com</h3>
+                    <h3> <i class="fas fa-phone"></i>+91 6238013489</h3>
+                   
+                    <h3> <i class="fas fa-map-marker-alt"></i> Kerala, India - 671314 </h3>
+                    <h3>
+                      <svg xmlns="http://www.w3.org/2000/svg" width="25" height="25" fill="currentColor" class="bi bi-github" viewBox="0 0 16 16">
+                        <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z"/>
+                      </svg>github-gimbra</h3>
+                    <!-- <h3>github-gimbra</h3> -->
+                    
+                    <a class="acc" href="https://z-p42.www.instagram.com/1aneetrose/?hl=hi"><i class="fab fa-instagram "></i> INSTAGRAM</a>
+                </div>
+        
+            </div> 
+        </div>
+        
+      </div>
+      <div class="copyright">
+        <h6>©2022</h6>
+        <h6> Made by Aneeta</h6>
 
-          <div class="col-lg-6">
-            <img src="images/Bootstrap.png" alt="bootstrap" class="logos">
-            <div class="Box-body">
-              <h5 class="Box-title">BOOTSTRAP</h5>
-              <p class="content">Bootstrap is a free and open-source CSS framework directed at responsive, mobile-first front-end web development. It contains CSS- and (optionally) JavaScript-based design templates for typography, forms, buttons, navigation, and other interface components.</p>
-          </div>
-            </div>
 
-          </div>
+      </div>
+
+     
+     
          
       
           
